@@ -75,10 +75,10 @@ export default function SignUp() {
       </div>
 
       {/* Red Box Section - Right Side */}
-      <div className="hidden md:flex flex-1 items-center justify-center">
-        <div className="bg-red-600 text-white text-center px-8 py-20 rounded-3xl w-3/4 h-5/6">
+      <div className="hidden md:flex pl-5 flex-1 items-center justify-center">
+     <div className="bg-[url('./assets/loginframe.png')] bg-cover bg-center text-white pl-20 px-8 py-20 rounded-3xl w-3/4 h-5/6">
           <h1 className="text-4xl font-bold mt-32">Hello Geek!</h1>
-          <p className="mt-2 text-lg">Join Geek Coders</p>
+          <h1 className="text-4xl font-bold">Join Geek Coders!</h1>
         </div>
       </div>
     </div>

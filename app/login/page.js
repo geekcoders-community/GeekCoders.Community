@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import google from '../assets/Google.png';  
 export default function Login(){
 
 return(<>
@@ -67,8 +68,8 @@ return(<>
           <hr className="border-t-2 border-gray-300 my-4" />
           <button
               type="submit"
-              className="w-full text-gray-400 py-2 rounded-md text-sm font-semibold border-2 border-red-600"
-            >Continue using Google</button>
+              className="w-full flex justify-center items-center text-gray-400 py-2 rounded-md text-sm font-semibold border-2 border-red-600"
+            >Continue using Google <Image src={google} width={20} className="ml-2"/></button>
               {/* Link to sign up Page */}
           <p className="mt-4 text-center text-sm text-gray-600">
             Don't have an account? <a href="#" className="text-red-600 hover:underline">Sign Up</a>
