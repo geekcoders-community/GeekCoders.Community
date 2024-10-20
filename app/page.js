@@ -10,19 +10,19 @@ export default function Home() {
     <>
       <div className="w-full overflow-hidden ">
       <Navbar/>
-      <div className=" mt-28 flex items-center justify-center ">
+      <div className=" mt-36 flex items-center justify-center ">
         <div className="bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center  text-white w-full mx-6    rounded-3xl  h-[700px]">
           <h1 className=" text-4xl md:text-8xl  font-clash font-semibold ">Welcome to</h1>
           <h1 className="text-4xl sm:text-5xl md:text-8xl  font-clash font-semibold ">Geek Coders!</h1>
           <h1 className="text-2xl    font-jb mt-2">Where geeks innovate!</h1>
           <div className="">
-          <Link href="/login"><button className="text-xl font-jb font-semibold bg-white text-[#DC143C]  rounded-full  mt-4 px-16 py-2 md:px-28">Join Us</button></Link>
+          <Link href="/join"><button className="text-xl font-jb font-semibold bg-white text-[#DC143C]  rounded-full  mt-4 px-16 py-2 md:px-28">Join Us</button></Link>
 
           </div>
         </div>
         
       </div>
-      <div className="flex flex-col   items-center p-6 mt-12">
+      <div className="flex flex-col   items-center p-6 mt-24">
         <h1 className="text-[#DC143C] font-clash font-semibold text-4xl lg:text-6xl mb-2 sm:text-8xl">Collaboration, Learning, and Innovation</h1>
         <p className="font-clash font-medium text-sm md:text-2xl text-justify xl:px-16 lg:text-4xl lg:mt-8"><span className="text-[#DC143C]">GeekCoders</span> is a thriving community focused on skill development and growth in the tech industry. Our mission is to empower 
           passionate individuals by fostering a culture of collaboration, continuous learning, and networking. Whether you're a 
@@ -33,25 +33,29 @@ export default function Home() {
       </div>
       {/* announcements */}
       <div>
-      <div className="flex flex-col w-full  items-center relative mt-12  h-44 md:h-64">
+      <div className="flex flex-col w-full  items-center relative mt-24  h-44 md:h-64">
         <h1 className="text-[rgb(220,20,60)] font-clash font-semibold text-4xl md:text-5xl lg:text-7xl mb-2 ">Announcements</h1>
         <div className="w-screen mt-10 md:mt-14">
             <div className="bg-[#DC143C] absolute py-2 overflow-hidden border-y-2 shadow-2xl border-black rotate-[8deg] md:rotate-6 md:mt-5  w-[120vw] -mx-4">
               <div className="flex whitespace-nowrap scrolling-container">
+              <p className="font-clash md:text-xl flex justify-center items-center text-sm md:word-spacing word-spacing-m scrolling-text-right mr-16 md:mr-36">
+              <HiSpeakerphone className="mr-4"/> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
                  <p className="font-clash md:text-xl flex justify-center items-center text-sm md:word-spacing word-spacing-m scrolling-text-right mr-16 md:mr-36">
-                 <HiSpeakerphone className="mr-4"/> Join us on 17th October for our upcoming Event! Don't miss out! #[EventHashtag] #GeekCoders </p>
+                 <HiSpeakerphone className="mr-4"/> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
                    <p className="font-clash  md:text-xl flex justify-center items-center text-sm md:word-spacing word-spacing-m scrolling-text-right">
-                   <HiSpeakerphone className="mr-4" /> Join us on 17th October for our upcoming Event! Don't miss out! #[EventHashtag] #GeekCoders </p>
+                   <HiSpeakerphone className="mr-4" /> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
               </div>
             </div>
         </div>
         <div className="w-screen">
             <div className="bg-[#DC143C] py-2  absolute overflow-hidden border-y-2 shadow-2xl border-black -rotate-[8deg] md:-rotate-6 -my-2  w-[120vw] -mx-4 ">
               <div className="flex whitespace-nowrap scrolling-container">
+              <p className="font-clash flex justify-center items-center md:text-xl text-sm md:word-spacing word-spacing-m scrolling-text mr-16 md:mr-36">
+              <HiSpeakerphone className="mr-4"/> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
                  <p className="font-clash flex justify-center items-center md:text-xl text-sm md:word-spacing word-spacing-m scrolling-text mr-16 md:mr-36">
-                 <HiSpeakerphone className="mr-4"/> Join us on 17th October for our upcoming Event! Don't miss out! #[EventHashtag] #GeekCoders </p>
+                 <HiSpeakerphone className="mr-4"/> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
                    <p className="font-clash flex justify-center items-center text-sm md:text-xl md:word-spacing word-spacing-m scrolling-text">
-                   <HiSpeakerphone className="mr-4 " /> Join us on 17th October for our upcoming Event! Don't miss out! #[EventHashtag] #GeekCoders </p>
+                   <HiSpeakerphone className="mr-4 " /> Be ready for our upcoming event! Don’t miss out! - Register Now! - #GeekCoders</p>
               </div>
             </div>
         </div>
@@ -60,13 +64,13 @@ export default function Home() {
 
       <div className="flex justify-center">
       
-          <Link href="/login"><button className="text-xl md:text-4xl font-clash bg-black text-[#DC143C] font-bold rounded-full  mt-4 px-16 py-4 md:px-28">Register Now!</button></Link>
+          <Link href="/register"><button className="text-xl md:text-4xl font-clash bg-black text-[#DC143C] font-bold rounded-full  mt-4 px-16 py-4 md:px-28">Register Now!</button></Link>
 
       </div>
       </div>
 
       {/* member benefits */}
-      <div className="flex flex-col   items-center  p-6 mt-16">
+      <div className="flex flex-col   items-center  p-6 mt-36 mb-28">
           <h1 className="text-[rgb(220,20,60)] font-clash font-semibold text-4xl md:text-5xl lg:text-7xl mb-10 ">Member Benefits</h1>
           <div className="w-full bg-[#191A23] lg:flex justify-center items-center rounded-3xl">
               <div className="p-10 ">

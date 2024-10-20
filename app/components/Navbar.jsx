@@ -12,12 +12,13 @@ export default function Navbar () {
     };
   
     return (
+      <div className='top-0 fixed flex justify-between w-full bg-white z-10'>
       <nav className="bg-white p-4 shadow-md w-full absolute">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Image src={logo} className='h-14 w-auto' />
-            <Link href="/login"><span className="font-semibold text-lg font-clash ">Geek Coders</span></Link>
+            <Link href="/"><span className="font-semibold text-lg font-clash ">Geek Coders</span></Link>
             
           </div>
   
@@ -49,12 +50,10 @@ export default function Navbar () {
             <Link href="/about">
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">About us</p>
             </Link>
-            <Link href="/events">
+            <Link href="/geekevents">
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Events</p>
             </Link>
-            <Link href="/faq">
-              <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Faq</p>
-            </Link>
+            
             <Link href="/contact">
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Contact</p>
             </Link>
@@ -63,7 +62,7 @@ export default function Navbar () {
           {/* Join Button */}
           <div className="hidden md:block ">
             <Link href="/join">
-              <p className="bg-[#DC143C]   font-semibold  font-clash text-white py-2 px-6 rounded-md hover:bg-red-600">
+              <p className="bg-[#DC143C]   font-semibold  font-clash text-white py-2 px-6 rounded-md hover:bg-black hover:text-[#DC143C] transition-all duration-500">
                 Join GC
               </p>
             </Link>
@@ -81,23 +80,22 @@ export default function Navbar () {
             <Link href="/about">
               <p className="block text-gray-800 hover:text-red-500">About us</p>
             </Link>
-            <Link href="/events">
+            <Link href="/geekevents">
               <p className="block text-gray-800 hover:text-red-500">Events</p>
             </Link>
-            <Link href="/faq">
-              <p className="block text-gray-800 hover:text-red-500">Faq</p>
-            </Link>
+            
             <Link href="/contact" >
               <p className="block text-gray-800 hover:text-red-500 mb-4">Contact</p>
             </Link>
             <Link href="/join">
-              <p className="block bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600">
+              <p className="block bg-red-500 text-white py-2 px-4 rounded-md hover:bg-black hover:text-[#DC143C] ">
                 Join GC
               </p>
             </Link>
           </div>
         </div>
       </nav>
+    </div>
     );
   };
   
