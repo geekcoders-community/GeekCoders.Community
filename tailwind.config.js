@@ -7,9 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        clash: ['ClashDisplay', 'sans-serif'], // Add the custom font here
+        jb: ['JetBrainsMono', 'sans-serif'], // Add the custom font here
       },
     },
   },
