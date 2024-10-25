@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <div className="w-full overflow-hidden ">
       <Navbar/>
-      <div className=" mt-36 flex items-center justify-center ">
-        <div className="bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center  text-white w-full mx-6    rounded-3xl  h-[700px]">
+      <div className="lg:mt-28 xl:mt-36  mt-36 flex items-center justify-center ">
+        <div className="bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center  text-white w-full mx-6 rounded-3xl lg:h-[500px] xl:h-[700px] h-[700px]">
           <h1 className=" text-4xl md:text-8xl  font-clash font-semibold ">Welcome to</h1>
           <h1 className="text-4xl sm:text-5xl md:text-8xl  font-clash font-semibold ">Geek Coders!</h1>
           <h1 className="text-2xl    font-jb mt-2">Where geeks innovate!</h1>
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col   items-center p-6 mt-24">
         <h1 className="text-[#DC143C] font-clash font-semibold text-4xl lg:text-6xl mb-2 sm:text-8xl">Collaboration, Learning, and Innovation</h1>
-        <p className="font-clash font-medium text-sm md:text-2xl text-justify xl:px-16 lg:text-4xl lg:mt-8"><span className="text-[#DC143C]">GeekCoders</span> is a thriving community focused on skill development and growth in the tech industry. Our mission is to empower 
+        <p className="font-clash font-medium text-sm md:text-2xl text-justify xl:px-16 lg:text-3xl lg:mt-8"><span className="text-[#DC143C]">GeekCoders</span> is a thriving community focused on skill development and growth in the tech industry. Our mission is to empower 
           passionate individuals by fostering a culture of collaboration, continuous learning, and networking. Whether you're a 
           beginner or an experienced professional, <span className="text-[#DC143C]" >GeekCoders</span> provides a platform where members can enhance their technical skills, 
           exchange innovative ideas, and connect with like-minded peers. Together, we aim to shape the future of technology by creating 
