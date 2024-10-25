@@ -1,73 +1,87 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-  margin: 0px;
+
+body {
+  margin: 0;
 }
-/* In globals.css */
+
+/* Font Face Definitions */
 @font-face {
-  font-family: 'ClashDisplay'; /* Use this name in your Tailwind classes */
+  font-family: 'ClashDisplay'; 
   src: url('./fonts/ClashDisplay-Bold.otf') format('opentype');
-  font-weight: 700; /* Bold font */
+  font-weight: 700; 
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay'; /* Use this name in your Tailwind classes */
+  font-family: 'ClashDisplay'; 
   src: url('./fonts/ClashDisplay-Semibold.otf') format('opentype');
-  font-weight: 600; /* Semibold font */
+  font-weight: 600; 
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'ClashDisplay'; /* Use this name in your Tailwind classes */
+  font-family: 'ClashDisplay'; 
   src: url('./fonts/ClashDisplay-Regular.otf') format('opentype');
-  font-weight: 200; /* Semibold font */
+  font-weight: 400; /* Changed from 200 to 400 for regular weight */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay'; /* Use this name in your Tailwind classes */
+  font-family: 'ClashDisplay'; 
   src: url('./fonts/ClashDisplay-Medium.otf') format('opentype');
-  font-weight: 500; /* Medium font */
+  font-weight: 500; 
   font-style: normal;
 }
-
 
 .word-spacing {
-  word-spacing: 1.5em; /* Customize the spacing value */
+  word-spacing: 1.5em; 
 }
-.word-spacing-m{
+
+.word-spacing-m {
   word-spacing: 1em;
 }
+
 @layer components {
   .scrolling-text {
-      @apply inline-block whitespace-nowrap;
-      animation: scroll 60s linear infinite;
+    @apply inline-block whitespace-nowrap;
+    animation: scroll 60s linear infinite;
   }
 
   @keyframes scroll {
-      0% {
-          transform: translateX(0%);
-      }
-      100% {
-          transform: translateX(-100%);
-      }
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
-}
 
-@layer components {
   .scrolling-text-right {
-      @apply inline-block whitespace-nowrap;
-      animation: scrollr 60s linear infinite;
+    @apply inline-block whitespace-nowrap;
+    animation: scrollr 60s linear infinite;
   }
 
   @keyframes scrollr {
-      0% {
-          transform: translateX(-100%);
-      }
-      100% {
-          transform: translateX(0%);
-      }
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
   }
 }
 
+@layer utilities {
+  .grid-centered > :nth-last-child(1):nth-child(3n + 1) {
+    @apply md:col-span-full;
+  }
+  .grid-centered > :nth-last-child(2):nth-child(3n + 1) {
+    @apply md:col-span-2;
+  }
+}
+.blur {
+  filter: blur(5px); /* Adjust the blur amount as needed */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
