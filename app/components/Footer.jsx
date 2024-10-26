@@ -34,8 +34,8 @@ const Footer = () => {
                 </div>
                     
                 <div className="flex gap-3">
-                    <Link href="/https://www.linkedin.com/company/geekcoderscommunity"><FaLinkedin size={30} color='white'/></Link>
-                    <Link href="/https://www.instagram.com/geekcoders.community/"><FaSquareInstagram size={30} color='white'/></Link>
+                    <Link target='_blank' href="https://www.linkedin.com/company/geekcoderscommunity"><FaLinkedin size={30} color='white'/></Link>
+                    <Link target = '_blank' href="https://www.instagram.com/geekcoders.community/"><FaSquareInstagram size={30} color='white'/></Link>
                     <Link href="/join"><FaDiscord size={30} color='white' /></Link>
                 </div>
             </div>
