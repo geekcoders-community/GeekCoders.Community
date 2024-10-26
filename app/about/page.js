@@ -121,7 +121,7 @@ const About = () => {
   
 ]
 
-const mangeteam=[
+const manageteam=[
     
   {id: 1,
     name: "Ashvika",
@@ -129,13 +129,14 @@ const mangeteam=[
     image: ashvika,
     description: "Building synergy through strong leadership.",
     icon:market      
-  },{id: 2,
+  },
+  {id: 2,
     name: "Ashvika",
     title: "Management Member",
     image: ashvika,
     description: "Guiding ideas from vision to action.",
     icon:market      
-  },
+  }
 
 
 
@@ -284,7 +285,7 @@ const mangeteam=[
 {/*  */}
 <div className="max-w-8xl mx-auto px-4 py-10">
   <div className="flex flex-wrap gap-16 justify-center">
-    {mangeteam.map((member) => (
+    {manageteam.map((member) => (
      
       <div
         key={member.id}
