@@ -9,7 +9,7 @@ const register = () => {
         
       <Navbar/>
       <div className=" mt-28 flex flex-col items-center justify-center h-full ">
-             <h1 className='font-clash text-[rgb(220,20,60)] text-7xl font-semibold'>Registration Opens Soon!</h1>
+             <h1 className='font-clash text-[rgb(220,20,60)] text-7xl font-semibold'>Registration will open soon!</h1>
              <h1 className='font-clash text-black font-semibold text-7xl'>Stay tuned!</h1>
         
       </div>

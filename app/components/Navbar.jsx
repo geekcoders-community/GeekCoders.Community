@@ -54,9 +54,9 @@ export default function Navbar () {
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Events</p>
             </Link>
             
-            <Link href="/contact">
+            {/* <Link href="/contact">
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Contact</p>
-            </Link>
+            </Link> */}
           </div>
   
           {/* Join Button */}

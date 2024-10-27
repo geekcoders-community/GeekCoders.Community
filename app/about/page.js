@@ -180,12 +180,7 @@ const manageteam=[
             
           </div>
           <div className="p-4 lg:p-6 xl:p-10  mt-5">
-              <p className="font-clash text-lg md:text-2xl xl:text-5xl  font-medium text-justify ">Welcome to <span className="text-black">Geek Coders</span>, a vibrant tech community in Chennai where developers and enthusiasts come together to learn, grow, 
-                and innovate. Our mission is to create an inclusive space for skill development, networking, and knowledge-sharing, 
-                welcoming members of all levels and expertise. <span className="text-black">Geek Coders</span> keeps members engaged with updates on hackathons, competitions,
-                 and tech events, along with hands-on workshops and meetups to build practical skills. Whether you're a coder, designer,
-                  or tech enthusiast, <span className="text-black">Geek Coders</span> offers a collaborative platform to connect, explore new trends, and grow in the world of
-                   technology. Join us in driving innovation forward!</p>
+              <p className="font-clash text-lg md:text-2xl xl:text-5xl  font-medium text-justify ">Geek Coders is a dynamic tech community in Chennai, bringing developers and enthusiasts together to learn, network, and grow. We provide updates on hackathons, competitions, and tech events, along with hands-on workshops that foster skill development and collaboration. Join us to explore new trends, connect with like-minded peers, and drive innovation forward!</p>
             </div>
             <div className="">
           <Link href="/join"><button className="text-xl font-jb font-semibold bg-white text-[#DC143C]  rounded-full  mt-4 px-16 py-2 md:px-28">Join Us</button></Link>
@@ -209,8 +204,7 @@ const manageteam=[
      
       <div
         key={member.id}
-        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[200px] mx-6 rounded-3xl h-[250px]
-                   basis-full sm:basis-1/2  lg:basis-1/5 p-4"
+        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[200px] mx-6 rounded-3xl h-[250px]basis-full sm:basis-1/2  lg:basis-1/5 p-4"
                    onClick={() => handleImageClick(member)}
                    >
         <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
@@ -234,8 +228,7 @@ const manageteam=[
      
       <div
         key={member.id}
-        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[400px] mx-6 rounded-3xl h-[250px]
-                   basis-full sm:basis-1/2  lg:basis-1/5 p-4"
+        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[400px] mx-6 rounded-3xl h-[250px]basis-full sm:basis-1/2  lg:basis-1/5 p-4"
                    onClick={() => handleImageClick(member)}
                    >
         <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
