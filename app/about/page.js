@@ -22,6 +22,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoMdCloseCircle } from "react-icons/io";
 
+export const runtime="edge";
 
 const About = () => {
   const [showDetails, setShowDetails] = useState(false);

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import qr from '../assets/qr.png'
 import Link from 'next/link'
 
+export const runtime="edge";
 
 const join = () => {
   return (
