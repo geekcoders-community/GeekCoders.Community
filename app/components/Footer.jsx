@@ -52,18 +52,18 @@ const Footer = () => {
             <Link href="/events">
               <p className="block text-white text-sm hover:text-red-500">Events</p>
             </Link>
-            <Link href="/faq">
+            {/* <Link href="/faq">
               <p className="block text-white text-sm hover:text-red-500">Faq</p>
             </Link>
             <Link href="/contact" >
               <p className="block text-white text-sm hover:text-red-500 ">Contact</p>
-            </Link>
+            </Link> */}
            
           </div>
           </div>
             {/* <div className="w-full border-t-2 border-white "></div> */}
             <div className="mt-8 border-t border-gray-700 w-full pt-4">
-    <p className="text-center text-xs text-gray-400">© 2024 [Community Name]. All rights reserved. | <a href="/privacy" className="hover:underline">Privacy Policy</a> | <a href="/terms" className="hover:underline">Terms of Service</a></p>
+    <p className="text-center text-xs text-gray-400">© 2024 Geek Coders. All rights reserved. </p>
   </div>
 </div>
 </div>

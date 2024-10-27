@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import qr from '../assets/qr.png'
 import Link from 'next/link'
+
 
 const join = () => {
   return (
@@ -16,6 +18,7 @@ const join = () => {
       </div>
       
     </div>
+    
     <div className="w-full px-6">
         <Footer />
       </div>
