@@ -25,18 +25,18 @@ const Footer = () => {
                     <Link href="/events">
                     <p className="text-white font-clash  hover:text-red-500">Events</p>
                     </Link>
-                    <Link href="/faq">
+                    {/* <Link href="/faq">
                     <p className="text-white  font-clash  hover:text-red-500">Faq</p>
                     </Link>
                     <Link href="/contact">
                     <p className="text-white font-clash  hover:text-red-500">Contact</p>
-                    </Link>
+                    </Link> */}
                 </div>
                     
                 <div className="flex gap-3">
                     <Link target='_blank' href="https://www.linkedin.com/company/geekcoderscommunity"><FaLinkedin size={30} color='white'/></Link>
                     <Link target = '_blank' href="https://www.instagram.com/geekcoders.community/"><FaSquareInstagram size={30} color='white'/></Link>
-                    <Link href="/join"><FaDiscord size={30} color='white' /></Link>
+                    <Link href="https://discord.gg/GnjmFTWhTT"><FaDiscord size={30} color='white' /></Link>
                 </div>
             </div>
             <div
