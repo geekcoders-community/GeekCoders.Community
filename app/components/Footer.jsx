@@ -4,6 +4,8 @@ import Image from 'next/image';
 import logo from '../assets/logo.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram ,FaDiscord} from "react-icons/fa6";
+export const runtime="edge";
+
 const Footer = () => {
   return (
     <div className='flex justify-center items-center'>

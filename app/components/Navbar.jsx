@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
+export const runtime="edge";
 
 import Image from 'next/image';
 import logo from '../assets/logo.png';  

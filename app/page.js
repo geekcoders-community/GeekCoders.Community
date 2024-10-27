@@ -4,7 +4,7 @@ import Login from "./login/page";
 import { HiSpeakerphone } from "react-icons/hi";
 import Footer from "./components/Footer";
 
- 
+ export const runtime="edge";
 export default function Home() {
   return (
     <>
