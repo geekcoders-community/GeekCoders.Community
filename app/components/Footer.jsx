@@ -25,12 +25,12 @@ const Footer = () => {
                     <Link href="/events">
                     <p className="text-white font-clash  hover:text-red-500">Events</p>
                     </Link>
-                    <Link href="/faq">
+                     {/*<Link href="/faq">
                     <p className="text-white  font-clash  hover:text-red-500">Faq</p>
                     </Link>
                     <Link href="/contact">
                     <p className="text-white font-clash  hover:text-red-500">Contact</p>
-                    </Link>
+                    </Link> */}
                 </div>
                     
                 <div className="flex gap-3">
@@ -52,12 +52,12 @@ const Footer = () => {
             <Link href="/events">
               <p className="block text-white text-sm hover:text-red-500">Events</p>
             </Link>
-            <Link href="/faq">
+            {/* <Link href="/faq">
               <p className="block text-white text-sm hover:text-red-500">Faq</p>
             </Link>
             <Link href="/contact" >
               <p className="block text-white text-sm hover:text-red-500 ">Contact</p>
-            </Link>
+            </Link> */}
            
           </div>
           </div>

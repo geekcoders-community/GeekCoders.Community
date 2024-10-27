@@ -6,7 +6,9 @@ import badri from "../assets/badri.png";
 import amal from "../assets/amal.png";
 import aarif from "../assets/aarif.png";
 import vansh from "../assets/vansh.png";
+import anurag from "../assets/anurag.png";
 import harish from "../assets/harish.png";
+import kabilan from "../assets/kabilan.png";
 import bhavna from "../assets/bhavna.png";
 import ashvika from "../assets/ashvika.png";
 import mukundan from "../assets/mukundan.png";
@@ -96,6 +98,15 @@ const About = () => {
       icon:tech    
 
     },
+    {
+      id: 4,
+      name: "Anurag",
+      title: "Technical Member",
+      image: anurag,
+      description: "Building tomorrow through  code.",   
+      icon:tech    
+
+    },
     
   ]
 
@@ -112,7 +123,7 @@ const About = () => {
     id: 2,
     name: "Kabilan",
     title: "Design Member",
-    image: aarif,
+    image: kabilan,
     description: "Designing the future, one pixel at a time.",
     icon:design      
   },
@@ -129,14 +140,7 @@ const mangeteam=[
     image: ashvika,
     description: "Building synergy through strong leadership.",
     icon:market      
-  },{id: 2,
-    name: "Ashvika",
-    title: "Management Member",
-    image: ashvika,
-    description: "Guiding ideas from vision to action.",
-    icon:market      
-  },
-
+  }
 
 
 
@@ -179,7 +183,7 @@ const mangeteam=[
             
           </div>
           <div className="p-4 lg:p-6 xl:p-10  mt-5">
-              <p className="font-clash text-lg md:text-2xl xl:text-5xl  font-medium text-justify ">Welcome to <span className="text-black">Geek Coders</span>, a vibrant tech community in Chennai where developers and enthusiasts come together to learn, grow, 
+              <p className="font-clash text-lg md:text-2xl min-[1440px]:text-4xl xl:text-4xl 2xl:text-5xl   font-medium text-justify ">Welcome to <span className="text-black">Geek Coders</span>, a vibrant tech community in Chennai where developers and enthusiasts come together to learn, grow, 
                 and innovate. Our mission is to create an inclusive space for skill development, networking, and knowledge-sharing, 
                 welcoming members of all levels and expertise. <span className="text-black">Geek Coders</span> keeps members engaged with updates on hackathons, competitions,
                  and tech events, along with hands-on workshops and meetups to build practical skills. Whether you're a coder, designer,
@@ -194,10 +198,10 @@ const mangeteam=[
         
 
         {/* Main Content */}
-        <div className={`text-center mt-10 font-clash flex flex-col p-6 items-start transition-all duration-100 ${showDetails ? 'blur' : ''}`}>
+        <div className={`text-center mt-10 font-clash flex flex-col p-6 items-start lg:items-center transition-all duration-100 ${showDetails ? 'blur' : ''}`}>
           <h1 className="text-black text-5xl  md:text-7xl xl:text-9xl font-bold">The Innovators</h1>
           <h1 className="text-[#DC143C]  text-5xl md:text-7xl xl:text-9xl font-bold">Behind It All</h1>
-          <p className="text-black md:text-2xl xl:text-4xl text-left font-clash font-medium text-xl">Get to know the talented team working together to inspire and elevate <span className="text-[#DC143C]">Geek Coders</span>.</p>
+          <p className="text-black md:text-2xl xl:text-4xl text-left lg:text-center font-clash font-medium text-xl">Get to know the talented team working together to inspire and elevate <span className="text-[#DC143C]">Geek Coders</span>.</p>
         </div>
 
         <div className={`max-w-8xl mx-auto px-4 py-10 transition-all duration-100 ${showDetails ? 'blur' : ''}`}>
@@ -225,9 +229,9 @@ const mangeteam=[
     ))}
   </div>
 </div>
-<h1 className="font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold">Technical Team</h1>
+<h1 className={`font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold ${showDetails ? 'blur' : ''}`}>Technical Team</h1>
 {/* tech */}
-<div className="max-w-8xl mx-auto px-4 py-10">
+<div className={`max-w-8xl mx-auto px-4 py-10 ${showDetails ? 'blur' : ''}`}>
   <div className="flex flex-wrap gap-16 justify-center">
     {techteam.map((member) => (
      
@@ -252,57 +256,57 @@ const mangeteam=[
 </div>
 {/* design */}
 
-<h1 className="font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold">Design Team</h1>
+<h1 className={`font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold ${showDetails ? 'blur' : ''}`}>Design Team</h1>
 {/*  */}
-<div className="max-w-8xl mx-auto px-4 py-10">
+<div className={`max-w-8xl mx-auto px-4 py-10 ${showDetails ? 'blur' : ''}`}>
   <div className="flex flex-wrap gap-16 justify-center">
-    {Designteam.map((member) => (
+  {Designteam.map((member) => (
      
-      <div
-        key={member.id}
-        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[600px] mx-6 rounded-3xl h-[300px]
-                   basis-full sm:basis-1/2  lg:basis-1/5 p-4"
-                   onClick={() => handleImageClick(member)}
-                   >
-        <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
-        <p className="text-xl font-medium font-clash text-white ">{member.title}</p>
-        <Image
-          src={member.image}
-          alt={member.name}
-          width={200}
-          height={200}
-          className="h-35 w-35 object-cover cursor-pointer"
-        />
-      </div>
-    ))}
+     <div
+       key={member.id}
+       className="overflow-hidden cursor-pointer pb-0 bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[400px] mx-6 rounded-3xl h-[250px]
+                  basis-full sm:basis-1/2 min-[1440px]:basis-1/3  lg:basis-1/5 p-4"
+                  onClick={() => handleImageClick(member)}
+                  >
+       <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
+       <p className="text-xl font-medium font-clash text-white">{member.title}</p>
+       <Image
+         src={member.image}
+         alt={member.name}
+         width={200}
+         height={200}
+         className="h-35 w-35 object-cover pb-0 cursor-pointer"
+       />
+     </div>
+   ))}
   </div>
 </div>
 
 {/* Manage */}
 
-<h1 className="font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold">Management Team</h1>
+<h1 className={`font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold ${showDetails ? 'blur' : ''}`}>Management Team</h1>
 {/*  */}
-<div className="max-w-8xl mx-auto px-4 py-10">
-  <div className="flex flex-wrap gap-16 justify-center">
-    {mangeteam.map((member) => (
+<div className={`max-w-8xl mx-auto px-4 py-10 ${showDetails ? 'blur' : ''}`}>
+  <div className="flex flex-wrap gap-16 justify-center ">
+  {mangeteam.map((member) => (
      
-      <div
-        key={member.id}
-        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[600px] mx-6 rounded-3xl h-[250px]
-                   basis-full sm:basis-1/2  lg:basis-1/5 p-4"
-                   onClick={() => handleImageClick(member)}>
-        <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
-        <p className="text-xl text-center  font-medium font-clash text-white">{member.title}</p>
-        <Image
-          src={member.image}
-          alt={member.name}
-          width={200}
-          height={200}
-          className="h-35 w-35 object-cover cursor-pointer"
-          
-        />
-      </div>
-    ))}
+     <div
+       key={member.id}
+       className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white   md:w-[400px] mx-6 rounded-3xl h-[250px]
+                  basis-auto sm:basis-1/3 min-[1440px]:basis-4/5 md:basis-10/12  lg:basis-2/5 p-4"
+                  onClick={() => handleImageClick(member)}
+                  >
+       <h2 className="text-2xl font-clash font-semibold mt-10">{member.name}</h2><span></span>
+       <p className="text-xl font-medium font-clash text-white">{member.title}</p>
+       <Image
+         src={member.image}
+         alt={member.name}
+         width={200}
+         height={200}
+         className="h-35 w-35 object-cover cursor-pointer"
+       />
+     </div>
+   ))}
   </div>
 </div>
 
@@ -325,7 +329,7 @@ const mangeteam=[
           />
         </span></h2>
           <p className="text-white text-4xl font-semibold">{selectedMember.title}</p>
-          <p className="text-white text-xl w-full mt-4">{selectedMember.description}</p>
+          <p className="text-[#560818] font-semibold text-xl w-full mt-4">{selectedMember.description}</p>
         </div>
         <div>
           <Image
@@ -343,12 +347,13 @@ const mangeteam=[
       className="absolute top-5 right-5 text-gray-300"
       onClick={closeDetails}
     >
-      <IoMdCloseCircle />
+      <IoMdCloseCircle size={25} />
     </button>
   </div>
 )}
+<div className="px-6"><Footer /></div>
 
-        <Footer />
+        
       </div>
     </>
   );
