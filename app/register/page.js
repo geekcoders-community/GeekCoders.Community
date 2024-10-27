@@ -15,7 +15,7 @@ const register = () => {
       </div>
       
     </div>
-    <div className="w-full px-6">
+    <div  className="w-full px-6">
         <Footer />
       </div>
     </>
