@@ -132,7 +132,7 @@ const About = () => {
   
 ]
 
-const mangeteam=[
+const manageteam=[
     
   {id: 1,
     name: "Ashvika",
@@ -207,8 +207,8 @@ const mangeteam=[
         <div className={`max-w-8xl mx-auto px-4 py-10 transition-all duration-100 ${showDetails ? 'blur' : ''}`}>
 <h1 className="font-clash text-[#DC143C]  text-center text-4xl md:text-6xl lg:text-8xl mt-8 font-semibold">Core Team</h1>
 
-  <div className="flex flex-wrap gap-16 justify-center mt-8">
-    {members.map((member) => (
+  <div className="flex flex-wrap gap-16 justify-center pb-0 mt-8">
+     {members.map((member) => (
      
       <div
         key={member.id}
@@ -219,10 +219,12 @@ const mangeteam=[
         <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
         <p className="text-xl font-medium font-clash text-white">{member.title}</p>
         <Image
+          
           src={member.image}
           alt={member.name}
           width={200}
           height={200}
+          
           className="h-35 w-35 object-cover cursor-pointer"
         />
       </div>
@@ -233,25 +235,25 @@ const mangeteam=[
 {/* tech */}
 <div className={`max-w-8xl mx-auto px-4 py-10 ${showDetails ? 'blur' : ''}`}>
   <div className="flex flex-wrap gap-16 justify-center">
-    {techteam.map((member) => (
+  {techteam.map((member) => (
      
-      <div
-        key={member.id}
-        className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[400px] mx-6 rounded-3xl h-[250px]
-                   basis-full sm:basis-1/2  lg:basis-1/5 p-4"
-                   onClick={() => handleImageClick(member)}
-                   >
-        <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
-        <p className="text-xl font-medium font-clash text-white">{member.title}</p>
-        <Image
-          src={member.image}
-          alt={member.name}
-          width={200}
-          height={200}
-          className="h-35 w-35 object-cover cursor-pointer"
-        />
-      </div>
-    ))}
+     <div
+       key={member.id}
+       className="overflow-hidden cursor-pointer bg-[url('./assets/herobg.png')] bg-cover bg-center flex flex-col justify-center items-center text-white md:w-[200px] mx-6 rounded-3xl h-[250px]
+                  basis-full sm:basis-1/2  lg:basis-1/5 p-4"
+                  onClick={() => handleImageClick(member)}
+                  >
+       <h2 className="text-2xl font-clash font-semibold mt-5">{member.name}</h2><span></span>
+       <p className="text-xl font-medium font-clash text-white">{member.title}</p>
+       <Image
+         src={member.image}
+         alt={member.name}
+         width={200}
+         height={200}
+         className="h-35 w-35 object-cover cursor-pointer"
+       />
+     </div>
+   ))}
   </div>
 </div>
 {/* design */}
@@ -288,7 +290,7 @@ const mangeteam=[
 {/*  */}
 <div className={`max-w-8xl mx-auto px-4 py-10 ${showDetails ? 'blur' : ''}`}>
   <div className="flex flex-wrap gap-16 justify-center ">
-  {mangeteam.map((member) => (
+  {manageteam.map((member) => (
      
      <div
        key={member.id}
@@ -303,6 +305,7 @@ const mangeteam=[
          alt={member.name}
          width={200}
          height={200}
+         
          className="h-35 w-35 object-cover cursor-pointer"
        />
      </div>

@@ -17,7 +17,7 @@ export default function Navbar () {
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Image src={logo} className='h-14 w-auto' />
+            <Image src={logo} className='h-14 w-auto' alt='logo' />
             <Link href="/"><span className="font-semibold text-lg font-clash ">Geek Coders</span></Link>
             
           </div>

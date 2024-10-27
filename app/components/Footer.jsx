@@ -25,7 +25,7 @@ const Footer = () => {
                     <Link href="/events">
                     <p className="text-white font-clash  hover:text-red-500">Events</p>
                     </Link>
-                     {/*<Link href="/faq">
+                    {/* <Link href="/faq">
                     <p className="text-white  font-clash  hover:text-red-500">Faq</p>
                     </Link>
                     <Link href="/contact">
@@ -34,9 +34,9 @@ const Footer = () => {
                 </div>
                     
                 <div className="flex gap-3">
-                    <Link href="/https://www.linkedin.com/company/geekcoderscommunity"><FaLinkedin size={30} color='white'/></Link>
-                    <Link href="/https://www.instagram.com/geekcoders.community/"><FaSquareInstagram size={30} color='white'/></Link>
-                    <Link href="/join"><FaDiscord size={30} color='white' /></Link>
+                    <Link target='_blank' href="https://www.linkedin.com/company/geekcoderscommunity"><FaLinkedin size={30} color='white'/></Link>
+                    <Link target = '_blank' href="https://www.instagram.com/geekcoders.community/"><FaSquareInstagram size={30} color='white'/></Link>
+                    <Link href="https://discord.gg/GnjmFTWhTT"><FaDiscord size={30} color='white' /></Link>
                 </div>
             </div>
             <div
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
             {/* <div className="w-full border-t-2 border-white "></div> */}
             <div className="mt-8 border-t border-gray-700 w-full pt-4">
-    <p className="text-center text-xs text-gray-400">© 2024 [Community Name]. All rights reserved. | <a href="/privacy" className="hover:underline">Privacy Policy</a> | <a href="/terms" className="hover:underline">Terms of Service</a></p>
+    <p className="text-center text-xs text-gray-400">© 2024 Geek Coders. All rights reserved. </p>
   </div>
 </div>
 </div>
