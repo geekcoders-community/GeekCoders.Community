@@ -184,7 +184,7 @@ const manageteam=[
             
           </div>
           <div className="p-4 lg:p-6 xl:p-10  mt-5">
-              <p className="font-clash text-lg md:text-2xl min-[1440px]:text-4xl xl:text-4xl 2xl:text-5xl   font-medium text-justify ">Welcome to <span className="text-black">Geek Coders</span>, a vibrant tech community in Chennai where developers and enthusiasts come together to learn, grow, 
+              <p className="font-clash text-sm sm:text-lg md:text-xl min-[1440px]:text-2xl xl:text-2xl 2xl:text-4xl   font-medium text-justify ">Welcome to <span className="text-black">Geek Coders</span>, a vibrant tech community in Chennai where developers and enthusiasts come together to learn, grow, 
                 and innovate. Our mission is to create an inclusive space for skill development, networking, and knowledge-sharing, 
                 welcoming members of all levels and expertise. <span className="text-black">Geek Coders</span> keeps members engaged with updates on hackathons, competitions,
                  and tech events, along with hands-on workshops and meetups to build practical skills. Whether you're a coder, designer,
