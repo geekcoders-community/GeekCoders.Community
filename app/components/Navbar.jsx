@@ -55,9 +55,7 @@ export default function Navbar () {
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Events</p>
             </Link>
             
-            {/* <Link href="/contact">
-              <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Contact</p>
-            </Link> */}
+           
           </div>
   
           {/* Join Button */}
@@ -85,9 +83,7 @@ export default function Navbar () {
               <p className="block text-gray-800 hover:text-red-500">Events</p>
             </Link>
             
-            {/* <Link href="/contact" >
-              <p className="block text-gray-800 hover:text-red-500 mb-4">Contact</p>
-            </Link> */}
+            
             <Link href="/join">
               <p className="block bg-red-500 text-white py-2 px-4 rounded-md hover:bg-black hover:text-[#DC143C] ">
                 Join GC

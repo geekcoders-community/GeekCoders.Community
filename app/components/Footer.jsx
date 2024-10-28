@@ -13,8 +13,8 @@ const Footer = () => {
 
     <div className='flex justify-between w-full items-center '>
         <div className="flex items-center space-x-2">
-            {/* <Image src={logo} className='h-14 w-auto' /> */}
-            <Link href="/login"><span className="font-bold text-lg text-[rgb(220,20,60)]">Geek Coders</span></Link>
+            
+            <Link href="/"><span className="font-bold text-lg text-[rgb(220,20,60)]">Geek Coders</span></Link>
           </div>
 
         <div className="hidden md:flex space-x-8">
@@ -27,12 +27,7 @@ const Footer = () => {
                     <Link href="/events">
                     <p className="text-white font-clash  hover:text-red-500">Events</p>
                     </Link>
-                    {/* <Link href="/faq">
-                    <p className="text-white  font-clash  hover:text-red-500">Faq</p>
-                    </Link>
-                    <Link href="/contact">
-                    <p className="text-white font-clash  hover:text-red-500">Contact</p>
-                    </Link> */}
+                    
                 </div>
                     
                 <div className="flex gap-3">
@@ -54,16 +49,11 @@ const Footer = () => {
             <Link href="/events">
               <p className="block text-white text-sm hover:text-red-500">Events</p>
             </Link>
-            {/* <Link href="/faq">
-              <p className="block text-white text-sm hover:text-red-500">Faq</p>
-            </Link>
-            <Link href="/contact" >
-              <p className="block text-white text-sm hover:text-red-500 ">Contact</p>
-            </Link> */}
+           
            
           </div>
           </div>
-            {/* <div className="w-full border-t-2 border-white "></div> */}
+           
             <div className="mt-8 border-t border-gray-700 w-full pt-4">
     <p className="text-center text-xs text-gray-400">© 2024 Geek Coders. All rights reserved. </p>
   </div>
