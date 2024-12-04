@@ -44,7 +44,7 @@ const register = () => {
           <div className="flex flex-col text-center md:text-left px-2 ">
             <span className="text-sm font-semibold">Wednesday, December 11</span>
             <span className="text-[0.6rem] text-gray-400">
-              4:00 PM - Dec 12, 3:00 PM GMT+5:30
+              4:00 PM - Dec 12
             </span>
           </div>
         </div>
