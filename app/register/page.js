@@ -34,9 +34,9 @@ const register = () => {
     <div className="">
       <div className="font-clash font-semibold px-6 md:px-24 md:py-10">
         <h1 className=" text-white text-lg md:text-3xl long">
-          RenderX:
+        InnovAite:
         </h1>
-        <p className='text-white text-lg md:text-2xl mb-4 long'> Build Your First Landing Page!</p>
+        <p className='text-white text-lg md:text-2xl mb-4 long'>  Unlock the Future with Machine Learning!</p>
         <div className="flex flex-row w-full items-center gap-3   bg-black text-white rounded-lg shadow-md ">
           <div className="flex flex-col items-center justify-center w-12 h-12 bg-gray-700 rounded-lg p-8  md:mb-0">
             <div className="text-lg font-semibold mb-0">JAN</div>
