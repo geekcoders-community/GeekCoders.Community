@@ -3,14 +3,15 @@ import Script from 'next/script';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Image from "next/image";
-import luma from "../assets/Luma.png";
+import luma2 from "../assets/innovaiteluma.png";
+import luma1 from "../assets/Luma.png";
 
 
 
 const register = () => {
   return (
     <>
-    <div className="flex flex-col h-[800px] md:h-[1000px] lg:h-screen bg-[#2A2E33]">
+    <div className="flex flex-col h-[800px] md:h-[1000px] lg:h-screen bg-[#4F181E]">
         
       <Navbar/>
       {/* <div className=" mt-28 flex flex-col items-center justify-center h-full ">
@@ -22,7 +23,7 @@ const register = () => {
        <div className='mt-28 md:px-8  flex  flex-col lg:flex-row justify-center items-center'>
   <div className='h-full flex items-center justify-center mt-10 px-4 mb-2 md:mb-0'>
     <Image
-      src={luma} // You can replace this with the actual path to your logo
+      src={luma2} // You can replace this with the actual path to your logo
       alt="RenderX Logo"
       width={500}
       height={500}
@@ -38,22 +39,22 @@ const register = () => {
         <p className='text-white text-lg md:text-2xl mb-4 long'> Build Your First Landing Page!</p>
         <div className="flex flex-row w-full items-center gap-3   bg-black text-white rounded-lg shadow-md ">
           <div className="flex flex-col items-center justify-center w-12 h-12 bg-gray-700 rounded-lg p-8  md:mb-0">
-            <div className="text-lg font-semibold mb-0">Dec</div>
+            <div className="text-lg font-semibold mb-0">JAN</div>
             <div className="text-lg font-semibold">11</div>
           </div>
           <div className="flex flex-col text-center md:text-left px-2 ">
-            <span className="text-sm font-semibold">Wednesday, December 11</span>
+            <span className="text-sm font-semibold">Saturday, January 11, 2025</span>
             <span className="text-[0.6rem] text-gray-400">
-              4:00 PM - Dec 12
+            9:00 AM - 1:00 PM
             </span>
           </div>
         </div>
         <div className='flex justify-center items-center '>
           <a
-            href="https://lu.ma/event/evt-rUadkQ45jJpar0N"
-            className="luma-checkout text-sm md:text-xl font-clash bg-black text-[#DC143C] font-bold rounded-full mt-4 px-16 py-4 md:px-28   lg:mb-0 w-full items-center text-center"
+            href="https://lu.ma/event/evt-wRyB0MHdMAa1DH0"
+            className="luma-checkout text-sm md:text-xl font-clash bg-black text-white font-bold rounded-full mt-4 px-16 py-4 md:px-28   lg:mb-0 w-full items-center text-center"
             data-luma-action="checkout"
-            data-luma-event-id="evt-rUadkQ45jJpar0N"
+            data-luma-event-id="evt-wRyB0MHdMAa1DH0"
           >
             Register for Event
           </a>
