@@ -1,0 +1,19 @@
+@media (max-width: 450px) {
+    #classimg{
+        height: 65vw;
+        width: 65vw;
+        
+    }
+    #classimg2{
+        height: 65vw;
+        width: 65vw;
+    }
+    #eventclass{
+        justify-content: center;
+    }
+    #eventclass2{
+        justify-content: center;
+    }
+  
+}
+

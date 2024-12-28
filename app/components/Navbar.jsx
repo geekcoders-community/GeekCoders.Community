@@ -54,6 +54,7 @@ export default function Navbar () {
             <Link href="/geekevents">
               <p className="text-gray-800 font-medium  font-clash hover:text-red-500">Events</p>
             </Link>
+
             
            
           </div>
@@ -82,6 +83,7 @@ export default function Navbar () {
             <Link href="/geekevents">
               <p className="block text-gray-800 hover:text-red-500">Events</p>
             </Link>
+          
             
             
             <Link href="/join">
