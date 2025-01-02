@@ -31,11 +31,11 @@ const innovaite = () =>{
                          </svg>
                         <h1 className="font-bold">11-01-2025</h1>
                         </div>
-                        <div className="flex mb-10">
+                        <div className="flex flex-wrap mb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-7 h-7 text-gray-500">
                         <path d="M12 2C8.13 2 5 5.13 5 8.5c0 3.88 7 11.5 7 11.5s7-7.62 7-11.5C19 5.13 15.87 2 12 2zm0 12c-1.1 0-2-1.2-2-2s.9-2 2-2 2 1.2 2 2-.9 2-2 2z"/>
                         </svg>
-                        <h1 className="font-bold">Yuniq, 4th Floor, TICEL, BIOPARK, Tharamani, Chennai</h1>
+                        <h1 className="font-bold">Yuniq, 4th Floor,</h1><h1 className="font-bold">TICEL, BIOPARK, Tharamani, Chennai</h1>
                         </div>
                         <a href="https://lu.ma/m7kepwxr" target="_blank" rel="noopener noreferrer" className="text-white bg-gradient-to-r from-red-500 to-red-800 rounded-lg p-2">
                         <center> Register Here</center>

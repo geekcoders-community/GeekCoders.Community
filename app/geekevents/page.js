@@ -116,11 +116,11 @@ const events = () => {
               </svg>
             <h1 className="font-bold">11-01-2025</h1>
             </div>
-            <div className="flex mb-10">
+            <div className="flex flex-wrap mb-10">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-7 h-7 text-gray-500">
             <path d="M12 2C8.13 2 5 5.13 5 8.5c0 3.88 7 11.5 7 11.5s7-7.62 7-11.5C19 5.13 15.87 2 12 2zm0 12c-1.1 0-2-1.2-2-2s.9-2 2-2 2 1.2 2 2-.9 2-2 2z"/>
             </svg>
-            <h1 className="font-bold">Yuniq, 4th Floor, TICEL, BIOPARK, Tharamani, Chennai</h1>
+            <h1 className="font-bold">Yuniq, 4th Floor,</h1><h1 className="font-bold">TICEL, BIOPARK, Tharamani, Chennai</h1>
             </div>
             <a href="https://lu.ma/m7kepwxr" target="_blank" rel="noopener noreferrer" className="text-white bg-gradient-to-r from-red-500 to-red-800 rounded-lg p-2">
             <center> Register Here</center>
@@ -136,7 +136,7 @@ const events = () => {
           </div>
           <div className="m-5 flex flex-col">
             <h1 className="text-3xl  font-bold">RenderX</h1>
-            <h1 className="mt-5 mb-5">Learn Web development Basics and Develop you own Landing page!!!</h1>
+            <h1 className="mt-5 mb-5">Learn Web development Basics and Develop your own Landing page!!!</h1>
             <div className="flex mb-2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" className="w-7 h-7 text-gray-500">
                <rect x="1" y="3" width="14" height="10" rx="1" ry="1" stroke="currentColor" fill="none"/>
